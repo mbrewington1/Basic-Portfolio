@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;}
+
+.line{background-color: grey;
+    color:teal;
+    padding: 2px;
+}
+.border{color: #ffffff; 
+    }
+
+h1{background-color: powderblue; color: white;
+    position: fixed;
+    top: 0;
+    margin-left: 22%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+h2{color:#4aaaa5;
+    }
+
+header{background-color: #ffffff;
+    border: 2px #cccccc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 60px;
+}
+body{
+    background-image: url('../images/just-waves.png')
+}
+section{
+    color: #777777;
+    background-color: #ffffff;
+    border: 2px #dddddd;
+    width: 960px;
+    top: 150px;
+    height: 610px;
+    position: relative;
+    margin: auto;
+    padding: 2px;
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width:210px;
+    height:225px; 
+    margin-right: 20px;
+    padding: 0 15px; 
+    float: left;
+}
+footer{
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    border-top: 6px solid #4aaaa5;
+}
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+.navbar a {
+    float: left;
+    font-size: 25px;
+    color:#666666;
+    font-weight: bolder;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #4aaaa5;
+}
