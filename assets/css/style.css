@@ -47,14 +47,14 @@
     #masthead {
         background: #ffffff;
         margin: 0 0 30px;
-        z-index: 99px;
+        z-index: 99;
         color: #ffffff;
         overflow: auto;
         left: 0;
         top: 0;
         border-bottom: 2px solid #cccccc;
         position: fixed;
-        width: 100%;
+        width: 50%;
         }
 
     #logo {
@@ -70,6 +70,7 @@
         font-weight: 700;
         font-size: 30px;
         text-decoration: none;
+        margin-left: 28%;
     }
 
     nav {
@@ -105,6 +106,7 @@ section {
     background-color: #ffffff;
     padding: 30px;
     border: 1px solid #dddddd;
+    overflow-y: scroll;
 }
 
 .image {
@@ -117,17 +119,19 @@ section {
     color: #ffffff;
     text-align: center;
     background-color: #4aaaa5;
+    position: absolute;
+    bottom: 0;
 }
 
 /*portfoliopage*/
 .work {
-    width: 200px;
-    height: 220px;
+    width: 30%;
     float: left;
     margin: 20px 25px;
+    position: relative;
     }
 
-.work h3 {
+/* .work h3 {
     border-bottom: 0;
     background: #4aaaa5;
     color: #ffffff;
@@ -139,7 +143,7 @@ section {
     line-height: 10px;
     margin-bottom: 0;
     font-weight: 300;
-}
+} */
 
 /*contactpage*/
 
